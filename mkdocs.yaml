@@ -1,0 +1,5 @@
+site_name: "gh-test - IaC"
+site_description: "Infra as Code to provision GCP resources and deploy ***gh-test***'s Docker image"
+
+nav:
+  - Home: index.md

@@ -1,0 +1,15 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: gh-test-infra
+  annotations:
+    "backstage.io/project": "png-gcp-learning-poc"
+    "backstage.io/cloud-run": "gh-test"
+    backstage.io/techdocs-ref: dir:.
+    github.com/project-slug: monkmantra/gh-test-iac
+  tags:
+    - de-ims-infra
+spec:
+  type: service
+  owner: user:de-ims
+  lifecycle: experimental
